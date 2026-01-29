@@ -26,4 +26,4 @@ JavaScriptおよびアニメーションライブラリの理解を深める目�
 - セクション単位でのアニメーション制御の最適化
 
 ## URL
-- https://github.com/kazfiles/web-portfolio.git
+- https://kazfiles.github.io/web-portfolio/
