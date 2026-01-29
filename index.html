@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My Creative Portlio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header class="hero">
+           <h1 class="hero-title">Shiraishi Web Portfolio</h1>
+           <p class="hero-text">Web制作エンジニア志望 | HTML / CSS / JavaScript</p> 
+        </header><!-- /.hero -->
+
+        <section class="section">
+            <div class="content">
+                <h2 class="fade-up">About Us</h2><!-- /.fade-up -->
+                <p class="fade-up">Web制作エンジニアを目指して学習中です。
+                    <br>HTML/CSS/JavaScriptを中心に、「読みやすく、保守しやすいコード」を意識して制作しています。
+                </p><!-- /.fade-up -->
+            </div><!-- /.content -->
+        </section><!-- /.section -->
+        
+        <section class="section">
+            <div class="content image-section"> 
+                <img src="https://picsum.photos/600/400" alt="sample" class="slide-in">
+                <div>
+                    <h2 class="fade-up">Skill</h2><!-- /.fade-up -->
+                    <p class="fade-up">HTML / CSS / JavaScript / Gsap / ScrollTrigger</p><!-- /.fade-up -->
+                    <p class="fade-up">スクロール位置に応じたアニメーション実装が可能です。</p><!-- /.fade-up -->
+                </div>
+            </div><!-- /.content image-section -->
+        </section><!-- /.section -->
+
+        <section class="section">
+            <div class="content">
+                <h2 class="fade-up">Works</h2>
+                <p class="fade-up">
+                本サイトは転職活動用ポートフォリオとして制作しました。
+                </p>
+                <p class="fade-up">
+                GSAPとScrollTriggerを用いて、
+                スクロールに連動したアニメーションを実装しています。
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="content">
+                <h2 class="fade-up no-trigger">Content</h2><!-- /.fade-up -->
+                <p class="fade-up no-trigger">GitHubより制作物をご覧いただけます。</p><!-- /.fade-up -->
+            </div><!-- /.content -->
+        </section><!-- /.section -->
+
+        <!-- GSAP -->
+        <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+        <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+        <script src="script.js"></script>
+
+    </body>
+</html>
